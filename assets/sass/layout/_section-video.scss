@@ -1,0 +1,44 @@
+main {
+    width: 100%;
+    height: 100vh;
+    margin-top: 34px;
+
+    h2 {
+        padding: 31px 55px;
+        font-size: $large !important;
+        padding-top: 0px;
+        font-family: $monts;
+        font-weight: $regular;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 51px;
+        margin-top: -59px;
+
+        .card-title {
+            font-family: $monts;
+            font-size: $small !important;
+            font-weight: $medium !important;
+            font-weight: bold !important;
+        }
+
+        .card-text {
+            font-family: $open;
+            font-size: $xmall !important;
+            font-weight: 500 !important;
+            line-height: 10px !important;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+
+        h2 {
+           text-align:center;
+           padding-bottom: 20px;
+       }
+    }
+}

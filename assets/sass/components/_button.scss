@@ -1,0 +1,32 @@
+#buton {
+
+    .seguir {
+        margin-left: 10px;
+        background-color: $salmon;
+        color: $blanco;
+        font-family: $monts;
+        font-size: $small;
+        font-weight: $light;
+        border: 0;
+        padding: 7px 13px;
+        }
+
+    .mensaje {
+        background-color: $celeste;
+        color: $blanco;
+        font-family: $monts;
+        font-size: $small;
+        font-weight: $light;
+        border: 0;
+        padding: 7px 10px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    #buton {
+        display:none !important;
+    }
+   
+}

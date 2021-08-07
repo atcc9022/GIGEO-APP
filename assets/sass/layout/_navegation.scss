@@ -1,0 +1,47 @@
+.navbar {
+    /* position: relative !important; */
+    display: flex !important;
+    /* flex-wrap: wrap !important; */
+    align-items: baseline !important;
+    justify-content: space-between !important;
+    padding: 1.5rem 1rem !important;
+    background-color: white !important;
+
+    .navbar-brand {
+        display:flex!important;
+
+        .logo {
+            margin-bottom: 6px;
+            margin-left: 35%; 
+            font-family: 'Spartan', sans-serif;
+            font-size: $large;
+            font-weight: 700;
+        }
+
+        .text-mins {
+            font-family: 'Spartan', sans-serif;
+            font-size: $xxmall;
+            font-weight: $medium;
+        }
+    }
+
+    .icons {
+        order:3;
+        margin-right: 3%;
+
+        .fas {
+            margin-right: 10px;
+        }
+
+        .navbar-toggler {
+            border-color: $blanco !important;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+            
+    i {
+        display: none !important;
+    }
+}
